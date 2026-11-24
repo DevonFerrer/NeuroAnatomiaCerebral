@@ -1,0 +1,38 @@
+{
+    "name": "ProyectoCorales.Editor",
+    "rootNamespace": "ProyectoCorales.EditorTools",
+    "references": [
+        "ProyectoCorales",
+        "Unity.InputSystem",
+        "UnityEngine.UI",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.CoreUtils",
+        "Unity.XR.Management",
+        "Unity.XR.Management.Editor",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "5.0.0",
+            "define": "AR_FOUNDATION"
+        },
+        {
+            "name": "com.unity.xr.management",
+            "expression": "4.0.0",
+            "define": "XR_MANAGEMENT"
+        }
+    ],
+    "noEngineReferences": false
+}
