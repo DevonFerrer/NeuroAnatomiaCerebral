@@ -16,7 +16,7 @@ App móvil Android (Unity 6.6 + URP) para explorar el **encéfalo humano** en **
 
 ## Uso
 1. Abre la carpeta del proyecto en Unity Hub.
-2. Escena principal: `Assets/ProyectoCorales/Escenas/AnatomiaRA.unity`.
+2. La escena principal `Assets/ProyectoCorales/Escenas/AnatomiaRA.unity` se abre sola al abrir el proyecto (si ves una escena vacía "Untitled", ábrela desde la ventana Project o con **ProyectoCorales ▸ Abrir escena principal**).
 3. **Play** para probar la vista 3D en el editor.
 4. **ProyectoCorales ▸ Compilar APK (Android)** genera `Builds/AnatomiaRA.apk`.
 
